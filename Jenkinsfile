@@ -20,7 +20,7 @@ pipeline {
         POM_VERSION = getVersion()
         JAR_NAME = getJarName()
         AWS_ECR_REGION = 'us-east-2'
-        AWS_ECS_SERVICE = 'ch-dev-user-api-service'
+        AWS_ECS_SERVICE = 'ch-dev-user-api-service2'
         AWS_ECS_TASK_DEFINITION = 'ch-dev-user-api-taskdefinition'
         AWS_ECS_COMPATIBILITY = 'FARGATE'
         AWS_ECS_NETWORK_MODE = 'awsvpc'
